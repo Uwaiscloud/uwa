@@ -22,7 +22,7 @@ st.write("Upload a document (PDF, TXT, or DOCX) and instantly get answers based 
 
 # Sidebar Configuration for API Key
 st.sidebar.header("API Configuration")
-default_api_key = "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"
+default_api_key = "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"
 groq_api_key = st.sidebar.text_input(
     "Groq API Key", 
     value=default_api_key, 
