@@ -29,10 +29,10 @@ groq_api_key = st.sidebar.text_input(
     type="password"
 )
 
-# Model selection (using the fast, free tier Llama 3.1 8B model)
+# Model selection using currently available Groq models
 model_name = st.sidebar.selectbox(
     "Groq Model",
-    ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"],
+    ["openai/gpt-oss-20b", "openai/gpt-oss-120b"],
     index=0
 )
 
